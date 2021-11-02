@@ -1,6 +1,8 @@
 # Script_im
 Scripts for computational investigations of large and flexible chemical systems based on the conformation labelling system, ONIOM calculations in Python 3
 
+Download the entire script_im/
+
 Filter_diversity_incl_label_generation_and_selection.ipynb
 -	The label generation and selection process have been integrated into the same script 
 -	Take a xyz file + dihedral angle of interests and return the selected conformers as a list (numerical index from the conformation searching output file) 
