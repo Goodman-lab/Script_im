@@ -1,4 +1,8 @@
 # Script_im
+
+Scripts supporting 'Computational insights on the origin of enantioselectivity in reactions with diarylprolinol silyl ether catalysts via a radical pathway' Org. Chem. Front., 2022,9, 3730-3738, DOI	https://doi.org/10.1039/D2QO00354F
+
+
 Scripts for computational investigations of large and flexible chemical systems based on the conformation labelling system, ONIOM calculations in Python 3
 
 Download the entire script_im/
