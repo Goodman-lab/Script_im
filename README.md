@@ -7,20 +7,20 @@ Scripts for computational investigations of large and flexible chemical systems 
 
 Download the entire script_im/
 
-Filter_diversity_incl_label_generation_and_selection.ipynb
+### Filter_diversity_incl_label_generation_and_selection.ipynb
 -	The label generation and selection process have been integrated into the same script 
 -	Take a xyz file + dihedral angle of interests and return the selected conformers as a list (numerical index from the conformation searching output file) 
 -	Examples have been included 
 
-conformation_label_generation.ipynb
+### conformation_label_generation.ipynb
 -	Take a xyz file + dihedral angle of interests and return the conformation labels of the conformers in the file as a data frame 
 -	Two Examples have been included 
 
-Selection_remove_repetitive_structures.ipynb
+### Selection_remove_repetitive_structures.ipynb
 -	Take a dataframe that contains the conformation label and ΔG‡ value of the conformers and return a list of selected conformers (as numerical index – inherit from the conformation searching output file) 
 -	An Example has been included 
 
-gjf_generation.ipynb
+### gjf_generation.ipynb
 -	The output from ‘Filter_diversity_incl_label_generation_and_selection’ can be directly used as the input for generating the gjf 
 -	The naming of the gjf file is controlled by ‘by_num’: 
 by_num = ‘no’ -- filename given in the xyz file + a user-specified suffix (input as a string)
